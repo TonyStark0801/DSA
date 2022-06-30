@@ -33,6 +33,7 @@ public class minMaxArray {
         //*Output */
         // Max: 34343
         // Min: -1
+    
     }
     
 
