@@ -13,6 +13,10 @@ public class reverseArray {
 
         }
         System.out.println("After: "+Arrays.toString(arr));
+
+        //*Output */
+        // Before: [1, 2, 3, 4, 5]
+        // After: [5, 4, 3, 2, 1]
     }
     
 
