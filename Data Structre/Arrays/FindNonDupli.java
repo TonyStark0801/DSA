@@ -27,4 +27,31 @@ public class FindNonDupli {
         System.out.println(non);
         
     }
+
+    /*Approach 2 
+        public static void main(String[] args) {
+            int[] nums = {7,1,5,7,5,1,25,23,25};
+            Hashtable<Integer,Boolean> hash = new Hashtable<>();
+            ArrayList<Integer> arr = new ArrayList<>();
+            for(int x : nums){
+                if(!hash.containsKey(x)){
+                    hash.put(x,false);
+                }
+                else{
+                    hash.put(x, true);
+                }
+                    
+            }
+            
+            for(int x : hash.keySet()){
+                if (!hash.get(x)) {
+                    arr.add(x);
+                }
+            }
+            System.out.println(arr);
+        }
+    */
+
+
+
 }
