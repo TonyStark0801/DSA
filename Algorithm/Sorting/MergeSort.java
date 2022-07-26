@@ -1,5 +1,8 @@
 /* Pass the given array to divide function it will recusively divide the array into left sub aray and right sub array
-* till you
+* till you get only one element in the array. The merge two arrays sorting at the same time.
+* You'll get the final output
+
+* Time Complexity : O(nlogn) for all cases 
 */ 
 
 

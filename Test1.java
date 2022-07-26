@@ -1,8 +1,5 @@
-import java.util.ArrayList;
-import java.util.Hashtable;
-
-import javax.lang.model.element.Element;
-
-public class Test1 {
-    
+public class Test1{
+  public static void main(String[] args) {
+    System.out.println("I am Test");
+  }
 }
