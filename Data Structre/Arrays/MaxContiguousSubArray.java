@@ -1,9 +1,9 @@
 /*
- * Given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum.
+ * Given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) 
+ * which has the maximum sum and return its sum.
 
 
 Example 1:
-
 Input:
 N = 5
 Arr[] = {1,2,3,-2,5}
@@ -13,8 +13,8 @@ Explanation:
 Max subarray sum is 9
 of elements (1, 2, 3, -2, 5) which 
 is a contiguous subarray.
-Example 2:
 
+Example 2:
 Input:
 N = 4
 Arr[] = {-1,-2,-3,-4}
@@ -53,3 +53,12 @@ public class MaxContiguousSubArray {
         System.out.println(max);
     }
 }
+
+
+/*
+ * Approach:
+ *  let max =  - INFINITY
+ *  Iteratre each value of array adding to sum. I sum >max then update max.
+ *  If the number is negative then stop this array and start new array
+ *  This is called KADANE'S ALGORITHM
+*/

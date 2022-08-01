@@ -110,3 +110,19 @@ public class PitvotIndex {
  * 2 - find the pivot
  * 
  */
+
+
+ /*
+ 
+Create a Sum Array[] which will store sum from left !
+sum of 1
+sum of 1,2
+sum of 1,2,3
+sum of 1,2,3,4
+
+now iterate and select element as pivot index and subtract each sum from main 
+sum which will in return give the right sum.
+Basically we have the left sum and subtracting it from the main sum
+to get the right sum. When we compare left and right. if found same. That's our pivot index
+
+*/
