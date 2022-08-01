@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-import javax.swing.plaf.basic.BasicBorders.MarginBorder;
 
 public class T3DArray {
     public static void main(String[] args) {
@@ -10,7 +9,7 @@ public class T3DArray {
         int [][] matrix = new int[N-1][];
         for (int j = 0; j < N-1; j++) {
             for (int i = N-1; i>0; i--) {
-                matrix[j][]= new int[i];
+                // matrix[j][]= new int[i];
             }
         }
         for (int j = 0; j < N-1; j++) {
