@@ -1,4 +1,5 @@
 // import java.util.Arrays;
+package Arrays;
 
 public class SayDigit {
     static String[] a ={" Zero ", " One "," Two "," Three "," Four "," Five ",

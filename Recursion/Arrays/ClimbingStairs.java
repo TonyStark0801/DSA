@@ -5,6 +5,7 @@
  * https://leetcode.com/problems/climbing-stairs/submissions/
 */
 
+package Arrays;
 
 public class ClimbingStairs {
     public static void main(String args[]){

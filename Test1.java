@@ -1,5 +1,4 @@
 public class Test1{
-  public static void main(String[] args) {
-    System.out.println("I am Test");
+  public static void main(String args[]){
   }
 }

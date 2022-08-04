@@ -8,6 +8,7 @@
  * Do this till you have only one element left. 
  * Then return that last element and volla you have your sum.
 */
+package Arrays;
 
 public class SumOfArray {
     static int s = 0;
