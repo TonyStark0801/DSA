@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Test1{
+public class DoubleZeros{
   public static void main(String args[]){
     Solution s = new Solution();
 
